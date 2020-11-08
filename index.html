@@ -20,7 +20,7 @@
 		data-course-review-link='-'
 		data-git-hub-account='qa16-ortdnipro'
 		data-git-hub-token='Y2FkOWNmYTBhNDBkYzcwNzU4NThkNTM1ZDVjNGNkMjcyMmJhNDI0Yg=='
-		data-show-telegram-link='true'
+		data-show-telegram-link='false'
 		data-show-git-hub-link='false'
 		data-telegram-group-link='#'
 		data-course-link-on-main-site='https://ortdnipro.org/qa/'
@@ -89,7 +89,7 @@
 	<!-- Header section end -->
 
 	<!-- Social links section start -->
-	<div class="social-section">
+	<div class="social-section" v-if='showTelegramLink && showGitHubLink'>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-10 offset-xl-1">
